@@ -6,8 +6,7 @@ namespace dotnet_pr
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            Console.WriteLine("Hello World!x2");
+            Console.WriteLine("Hello World!" + Classwork1_task1.GetSum(1, 2));
         }
     }
 }
