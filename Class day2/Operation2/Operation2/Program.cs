@@ -8,9 +8,12 @@ namespace Operation2
         {
             int A = 1;
             int B = 15;
-            int C = A;
             Console.WriteLine("Pirminis varianats: A = {0}, B= {1},", A, B);
-            Console.WriteLine("Pirminis varianats: A = {0}, B = {1} ", A=B, B=C);
+            //int C = A;
+            (A, B) = (B, A);
+            Console.WriteLine("Pirminis varianats: A = {0}, B= {1},", A, B);
+            //Console.WriteLine("Pirminis varianats: A = {0}, B = {1} ", A=B, B=C);
+
         }
     }
 }
