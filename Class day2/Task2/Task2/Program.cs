@@ -15,7 +15,6 @@ namespace Task2
             int number3 = Convert.ToInt32(Console.ReadLine());
             double avg = (double)(number1 + number2 + number3) / 3;
             Console.WriteLine("Skaiciu vidurkis: {0}",avg);
-
         }
     }
 }
