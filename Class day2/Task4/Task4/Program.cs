@@ -19,6 +19,8 @@ namespace Task4
                     && date.DayOfWeek != DayOfWeek.Friday)
                     totalDays++;
             }
+            Console.WriteLine("Diff between days: {0}", numberOfdays);
+            Console.WriteLine("Diff between days without in weeks {0}", numberOfweeks);
             Console.WriteLine("Diff between days without weekends and Friday: {0}", totalDays);
         }
     }
