@@ -16,7 +16,7 @@ namespace Task1
             yearofBirth = 1990;
             firstName = "Vardenis";
 
-            Console.WriteLine("Vardas, Pavarde: {0}, {0}", firstName, lastName);
+            Console.WriteLine("Vardas, Pavarde: {0}, {1}", firstName, lastName);
             Console.WriteLine("Gimimo metai: {0}", yearofBirth);
             Console.WriteLine("Pajamos: {0}", salary);
             Console.WriteLine("Paskutini karta ismoketa alga: {0}", lastPayDay.ToLongDateString());
