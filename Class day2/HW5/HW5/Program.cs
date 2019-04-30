@@ -6,7 +6,11 @@ namespace HW5
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Iveskite staciakampio krastines x ilgi:");
+            int x = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Iveskite staciakampio krastines y ilgi:");
+            int y = Convert.ToInt32(Console.ReadLine());
+            int 
         }
     }
 }
