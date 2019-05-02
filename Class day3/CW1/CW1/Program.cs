@@ -12,11 +12,11 @@ namespace CW1
 
             if (skaiciusFloat == skaiciusDouble)
             {
-                Console.WriteLine("skaiciusFloat {0} YRA skaicius {1}", skaiciusFloat, skaiciusDouble);
+                Console.WriteLine("skaiciusFloat {0} YRA skaicius skaiciusDouble {1}", skaiciusFloat, skaiciusDouble);
             }
             else 
             {
-                Console.WriteLine("skaiciusFloat {0} NERA skaicius {1}", skaiciusFloat, skaiciusDouble);
+                Console.WriteLine("skaiciusFloat {0} NERA skaicius skaiciusDouble {1}", skaiciusFloat, skaiciusDouble);
             }
             Console.ReadLine();
         }
