@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CW6", "CW6\CW6.csproj", "{079AC1E2-A82C-463C-9715-8CACB61ECECE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{079AC1E2-A82C-463C-9715-8CACB61ECECE}.Debug|x86.ActiveCfg = Debug|x86
+		{079AC1E2-A82C-463C-9715-8CACB61ECECE}.Debug|x86.Build.0 = Debug|x86
+		{079AC1E2-A82C-463C-9715-8CACB61ECECE}.Release|x86.ActiveCfg = Release|x86
+		{079AC1E2-A82C-463C-9715-8CACB61ECECE}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+EndGlobal
