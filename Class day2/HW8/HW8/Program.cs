@@ -20,7 +20,7 @@ namespace HW8
             int[] nums2 = new int[2];
             for (int i = 0; i < 2; i++)
             {
-                nums2[i] = int.Parse(splitted[i]);
+                nums2[i] = int.Parse(splitted2[i]);
             }
             Console.WriteLine("Iveskite treciojo tasko koordinates:(M,N)");
             string point3 = Console.ReadLine();
@@ -28,7 +28,7 @@ namespace HW8
             int[] nums3 = new int[2];
             for (int i = 0; i < 2; i++)
             {
-                nums3[i] = int.Parse(splitted[i]);
+                nums3[i] = int.Parse(splitted3[i]);
             }
             Console.WriteLine("Ar taskas (M,N) yra staciakampio viduje? {0}", nums1[0] <= nums3[0] && nums2[0] >= nums3[0] && nums1[1] <= nums3[1] && nums2[1] >= nums3[1]);
         }
