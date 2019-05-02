@@ -7,19 +7,14 @@ namespace CW22
         public static void Main(string[] args)
         {
 
-
-             
             string name2 = "Juste";
             string password2 = "labas";
 
-            //bool result = name.Equals(name2, StringComparison.OrdinalIgnoreCase);
-            //bool result2 = password.Equals(password2, StringComparison.OrdinalIgnoreCase);
             int i = 0;
             bool result = false;
 
-            while ((result == false) && (i < 4))
+            while ((result == false) && (i < 3))
             {
-
 
                 Console.WriteLine("Iveskite Varda");
                 string name = Console.ReadLine();
