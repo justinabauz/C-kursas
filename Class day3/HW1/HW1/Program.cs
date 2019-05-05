@@ -10,7 +10,6 @@ namespace HW1
             int number1;
             if (!int.TryParse(Console.ReadLine(), out number1))// rezultatas True or False
             {
-
                 Console.WriteLine("Ivestas ne skaicius");
                 Console.ReadLine();
                 Environment.Exit(0);
@@ -19,12 +18,10 @@ namespace HW1
             int number2;
             if (!int.TryParse(Console.ReadLine(), out number2))// rezultatas True or False
             {
-
                 Console.WriteLine("Ivestas ne skaicius");
                 Console.ReadLine();
                 Environment.Exit(0);
             }
-
             Console.WriteLine("Ivesti skaiciai yra vienodi? {0}", number1 == number2 );
             Console.ReadLine();
         }
