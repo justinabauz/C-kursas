@@ -29,11 +29,9 @@ namespace CWM6
                         count++;
                     }
                 }
-                Console.WriteLine();
+            Console.WriteLine();
             Console.WriteLine("{0}, Count {1}", numbers1[i], count);
-
             }
-
         }
     }
 }
