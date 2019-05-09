@@ -6,11 +6,19 @@ namespace HW210
     {
         public static void Main(string[] args)
         {
-            string[] varduMas = { "Justas", "Tomas", "Rokas", "Lukas", "Vaidas", "Povilas", "Martynas", "Jokubas", "Viktoras", "Benas" };
+            string[] varduMas = { "Justas", "Tomas", "Rokas", "Lukas", "Vaidas", "Povilas", "Martynas", "Jokubas", "Viktoras", "Benas"};
             string[] masyvasNaujas = new string[8];
-            for (int i = 0; i<10; i++)
+            int j = 0;
+            for (int i = 0; i < 10; i++)
             {
-                if (i < 4)
+                if (i != 5 && i != 7)
+                {
+                    masyvasNaujas[j] = varduMas[i];
+                    j++;
+                }
+
+
+                /* if (i < 4)
                 {
                     masyvasNaujas[i] = varduMas[i];
                 }
@@ -22,11 +30,14 @@ namespace HW210
                 {
                     masyvasNaujas[i-2] = varduMas[i];
                 }
+                */
             }
-            foreach(var number1 in masyvasNaujas)
-           {
-           Console.WriteLine("{0}, ", number1);
-           }
+
+            foreach (var number1 in masyvasNaujas)
+            {
+                Console.WriteLine("{0}, ", number1);
+            }
+
 
 
         }
