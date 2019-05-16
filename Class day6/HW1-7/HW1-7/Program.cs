@@ -19,7 +19,6 @@ namespace HW17
         {
             decimal[] skaicius = { 35.2m, 55.345m};
             Console.WriteLine("Skaiciu suma suapvalinta iki simtuju:{0}", metodas(skaicius));
-
         }
     }
 }
